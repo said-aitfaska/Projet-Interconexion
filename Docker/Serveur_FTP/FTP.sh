@@ -3,6 +3,8 @@
 
 #!/bin/bash
 
+#Delete the automatical adress configured by the docker image 
+ip addr flush dev eth1
 ip link set dev eth1 up 
 ip a a 120.0.33.66/24 dev eth1
 
