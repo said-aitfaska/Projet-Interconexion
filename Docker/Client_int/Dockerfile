@@ -3,8 +3,8 @@ RUN apt-get update
 RUN apt-get -y install iptables apt-utils iproute2 net-tools systemd telnet nano iputils-ping tcpdump inetutils-traceroute quagga curl
 RUN apt-get -f install
 COPY  ./quagga /etc/quagga
-COPY box_int.sh /home/
-RUN ["chmod", "+x", "/home/box_int.sh"]
+COPY client_int.sh /home/
+RUN ["chmod", "+x", "/home/client_int.sh"]
 RUN mkdir /etc/scripts
 ENV PATH "/etc/scripts:$PATH"
 ENTRYPOINT /etc/init.d/quagga start && /bin/bash
