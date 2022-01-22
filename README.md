@@ -21,8 +21,8 @@ Open a terminal, and type :<br>
 	cd Bureau//Projet-Interconnexion
 	./projet.sh
 
-Here servals dockers will appear representing the whole architecture of my ISP 
-network(Client, DHCP server, routers and servers, etc...).<br>
+Here servals dockers will appear representing the whole architecture of our AS 
+(Client, DHCP server, routers and servers, etc...).<br>
 To stop the dockers, you have to type :<br>
 
 	docker kill  $(docker ps -a -q)  
