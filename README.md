@@ -19,7 +19,7 @@
 Open a terminal, and type :<br>
 
 	cd Bureau//Projet-Interconnexion
-	chmod +x project.sh
+	chmod +x projet.sh
 	./projet.sh
 
 Here servals dockers will appear representing the whole architecture of our AS 
