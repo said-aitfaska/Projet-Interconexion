@@ -1,4 +1,3 @@
-# Auteur: Youssef MINYARI
 
 #!/bin/sh
 
